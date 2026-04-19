@@ -14,6 +14,8 @@
 
 ## Stack
 - **Next.js 16** (App Router) — read `node_modules/next/dist/docs/` before writing Next.js code; APIs may differ from older versions
+  - **This is NOT the Next.js you know**
+    This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 - **React 19** with React Compiler enabled (`reactCompiler: true` in `next.config.ts`) — do NOT add `useMemo`/`useCallback` manually; the compiler handles memoization
 - **TypeScript** strict mode
 - **Tailwind CSS v4** — PostCSS-based, no `tailwind.config.js` needed
