@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "Axon": {
+      "type": "stdio",
+      "command": "axon",
+      "args": [
+        "serve",
+        "--watch"
+      ]
+    }
+  }
+}
