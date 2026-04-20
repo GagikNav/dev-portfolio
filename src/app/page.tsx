@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { SectionContainer } from "@/components/section-container";
-import { bio, social } from "@/lib/data";
+import { SectionContainer } from "@/app/components/section-container";
+import { bio, social } from "@/app/lib/data";
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import { social } from "@/lib/data";
+import { social } from "@/app/lib/data";
 
 function GitHubIcon() {
   return (

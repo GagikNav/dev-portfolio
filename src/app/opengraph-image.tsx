@@ -76,7 +76,7 @@ export default function OgImage() {
           letterSpacing: "0.02em",
         }}
       >
-        gagiknav.dev
+        gagik.me
       </div>
     </div>,
     { ...size },
