@@ -1,5 +1,20 @@
 # Copilot Instructions
 
+## Branches & Issues
+
+- Always create a descriptive branch name based on the issue or feature description.
+- Branch names **must** start with the issue number, followed by a dash and a concise, kebab-case summary. Example: `123-fix-navbar-overlap`
+- For feature work not tied to an issue, use a short, clear summary. Example: `feature-landing-page-redesign`
+- Always reference the issue number in the branch name if one exists.
+
+**Workflow:**
+- When starting work on an issue, create a new branch from `main` using the naming convention above.
+- Push your branch and open a pull request referencing the issue.
+
+**Examples:**
+- Issue #42: `42-add-contact-form`
+- Issue #108: `108-fix-footer-links`
+
 ## Package Manager
 - Use **Bun** exclusively. Never suggest `npm`, `npx`, `yarn`, or `pnpm`.
 - Install deps: `bun add <pkg>` / `bun add -d <pkg>`
