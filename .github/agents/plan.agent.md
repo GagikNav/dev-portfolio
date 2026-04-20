@@ -6,7 +6,7 @@ tools:
   - vscode/extensions
   - web/fetch
   - read/problems
-  - search/searchResults
+  - search
   - search/usages
   - vscode/vscodeAPI
 ---
