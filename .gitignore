@@ -43,3 +43,4 @@ dump.sql
 local-db
 local-db-wal
 local.db
+.vscode
