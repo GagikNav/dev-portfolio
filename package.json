@@ -10,6 +10,7 @@
     "format": "biome format --write",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
+    "db:seed": "bun run db:migrate && bun scripts/migrate-data.ts",
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
